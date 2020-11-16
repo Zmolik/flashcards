@@ -18,7 +18,7 @@ class Flashcard:
                 break
         while True:
             definition = self.input_and_add_to_log('The definition of the card:\n> ')
-            if definition in [def_[0] for def_ in self.dic_flashcards.values()]:   # removed: self.set_definitions
+            if definition in [def_[0] for def_ in self.dic_flashcards.values()]:  
                 self.print_and_add_to_log(f'The definition "{definition}" already exists. Try again:')
             else:
                 break
