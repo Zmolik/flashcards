@@ -6,7 +6,8 @@ Start the program using commandline:
  usage: flashcards.py [-h] [--import_from IMPORT_FROM] [--export_to EXPORT_TO]  
   
 optional arguments:  
-  -h, --help            show this help message and exit  
+  -h, --help            
+  show this help message and exit  
   --import_from IMPORT_FROM  
                         Imports flashcards from specified json file  
   --export_to EXPORT_TO  
